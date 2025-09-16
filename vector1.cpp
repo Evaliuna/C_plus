@@ -8,8 +8,11 @@ void display(vector<int>&v2){
 }
 int main(){
     vector<int>v1;
-    int element;
-    for(int i = 0; i<5; i++){
+    int element,size;
+    cout<<"Enter the vector size :";
+    cin>>size;
+    cout<<"Enter vector elements :";
+    for(int i = 0; i<size; i++){
         cin>>element;
         v1.push_back(element);
     }
